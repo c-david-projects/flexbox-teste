@@ -1,0 +1,108 @@
+body {
+    font-family: 'arial';
+    margin: 0;
+    background: #000;
+}
+
+.title {
+    background-color: yellow;
+    width: 85%;
+    margin-right: 15px;
+}
+
+.logo {
+    background-color: green;
+}
+
+.ul {
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.men-1 {
+    background-color: rgb(45, 98, 133);
+}
+
+.men-2 {
+    background-color: rgb(101, 224, 122);
+}
+
+.men-3 {
+    background-color: rgb(136, 96, 230);
+}
+
+.men-4 {
+    background-color: rgb(222, 235, 43);
+}
+
+.men-5 {
+    background-color: rgb(235, 43, 69);
+}
+
+.men-6 {
+    background-color: rgb(43, 174, 235);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 1%;
+}
+
+.flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.flex-item-right-1 {
+    background-color: rgb(161 201 173);
+    padding: 10px;
+    flex: -10%;
+    width: 50%;
+    height: 600px;
+}
+
+.flex-item-right-center {
+    background-color: aqua;
+    padding: 10px;
+    flex: -10%;
+    width: 50%;
+    height: 600px;
+}
+
+#footer {
+    width: 50%;
+    height: 4.5rem;
+    background-color: lightgrey;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    .flex-item-right-1,
+    .flex-item-right-center {
+        flex: 100%;
+    }
+}
